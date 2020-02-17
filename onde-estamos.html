@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bulma.css">
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Karla:400,400i,700,700i&display=swap" rel="stylesheet">
+  <title>Onde estamos</title>
+</head>
+<body>
+  <!--include parts/navbar.html-->
+  <section class="hero is-primary is-medium">
+    <!-- Hero head: will stick at the top-->
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="brand"><img src="img/salvar-branco.svg" alt="Logo"></div>
+          <div class="navbar-brand"></div>
+          <div class="navbar-menu" id="navbarMenuHeroA">
+            <div class="navbar-end"><a class="navbar-item is-active is-font-fancy is-size-3 is-call" href="./quero-apoiar.html">Quero apoiar!</a></div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    
+    <!-- Hero content: will be in the middle-->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-font-fancy is-size-1 text-shadow">Sustentabilidade para o Alto Vale do Ribeira</h1>
+      </div>
+    </div>
+    
+    <!-- Hero footer: will stick at the bottom-->
+    <div class="hero-foot">
+      <nav class="tabs">
+        <div class="container">
+          <ul>
+            <li><a href="./">Quem somos</a></li>
+            <li class="is-active"><a href="./onde-estamos.html">Onde estamos</a></li>
+            <li><a href="./o-que-fazemos.html">O que fazemos</a></li>
+            <li><a href="./quero-apoiar.html">Quero apoiar</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content">
+      <h1 class="title is-font-fancy is-size-2">Onde estamos</h1>
+      <p>Atualmente, estamos no Alto Vale do Ribeira. Localizada ao sul do Estado de São Paulo, essa é a região que leva o título de Patrimônio Natural da Humanidade pela UNESCO. Suas paisagens são encantadoras! Mas, há outro título e cenário que  não conseguimos ignorar: essa também é a região que marca o menor Índice de Desenvolvimento Humano (IDH) do Estado mais rico do Brasil.</p>
+      <p>Por trás de cada paisagem, há também famílias que choram por não terem uma boa qualidade de vida. Falta trabalho, comida, estudo e, por consequência, falta esperança. </p>
+      <p>A principal fonte de renda é a agricultura do tomate, que, não se colhe o ano todo. O período de entre safras é sofrido, vazio, ocioso e desesperador. Famílias inteiras se empenham nesse trabalho que não oferece condições seguras para economia da família, tampouco, para a saúde física de cada trabalhador.</p>
+      <p>O Vale do Ribeira está localizado na região sudeste do Estado de São Paulo  e é formado por 25 municípios. Nós estamos presentes, com algum de nossos projetos, nos seguintes municípios: </p>
+      <ul>
+        <li>Apiaí</li>
+        <li>Itapirapuã Paulista</li>
+        <li>Itaóca</li>
+        <li>Ribeira </li>
+        <li>Ribeirão Branco </li>
+      </ul><img src="img/mapa.png" alt="">
+      <p>Nos próximos anos, temos como meta, estar presentes em outros campos com o propósito de levar esperança! </p>
+    </div>
+  </section><script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Check if there are any navbar burgers
+if ($navbarBurgers.length > 0) {
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+}
+
+});
+</script>
+
+<!--
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+-->
+
+<script>
+$('#slide').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+</script>
+</body>
