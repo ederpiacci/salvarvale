@@ -29,6 +29,7 @@
         </div>
       </nav>
     </div>
+    
     <!-- Hero content: will be in the middle-->
     <div class="hero-body">
       <div class="container has-text-centered">
@@ -43,8 +44,8 @@
             <li><a href="./">Quem somos</a></li>
             <li><a href="./onde-estamos.html">Onde estamos</a></li>
             <li><a href="./o-que-fazemos.html">O que fazemos</a></li>
-            <li><a href="./historia.html">História</a></li>
-            <li class="is-active"><a href="./quero-apoiar.html">Quero apoiar</a></li>
+            <li class="is-active"><a href="./historia.html">História</a></li>
+            <li><a href="./quero-apoiar.html">Quero apoiar</a></li>
           </ul>
         </div>
       </nav>
@@ -52,16 +53,20 @@
   </section>
   <section class="section">
     <div class="container content">
-      <h1 class="title is-font-fancy is-size-2">Você pode apoiar</h1>
+      <h1 class="title is-font-fancy is-size-2">O que fazemos</h1>
+      <p>Acreditamos que a transformação da realidade dessas regiões de vulnerabilidade social vem através do amor de Cristo. Tanto o desenvolvimento pessoal, social e econômico vem como consequência do amor ao próximo que é papel da igreja. Por isso trabalhamos em três frentes:</p>
       <div class="columns">
-        <div class="column">
-          <p>Colaborando financeiramente por mês para o nosso projeto.</p><a class="button is-primary is-font-fancy is-large" href="https://www.colabore.salvarvale.org.br" target="_blank">Quero apoiar!</a>
+        <div class="column has-text-centered"><img class="seta-menor" src="img/s-espiritual.svg" alt="">
+          <h2 class="title is-size-4">SALVAR ESPIRITUAL</h2>
+          <p>Trazer desenvolvimento social, espiritual e econômico para as regiões de vulnerabilidade social.</p>
         </div>
-        <div class="column">
-          <p>Apadrinhando uma das nossas crianças que recebem apoio do projeto</p><a class="button is-primary is-font-fancy is-large" href="https://salvarvale.org.br/salvar/criancas" target="_blank">Quero apadrinhar!</a>
+        <div class="column has-text-centered"><img class="seta" src="img/s-social.svg" alt="">
+          <h2 class="title is-size-4">SALVAR SOCIAL</h2>
+          <p>Atendimento de contraturno escolar a crianças de 04 a 12 anos com oficinas de arte, música, esportes, informática e apoio escolar. Também temos alfabetização e inclusão digital de adultos. Distribuição de doações e cestas básicas.</p>
         </div>
-        <div class="column">
-          <p>Voluntariando nas nossas viagens missionárias para a região de Apiaí</p><a class="button is-primary is-font-fancy is-large" href="https://docs.google.com/forms/d/10bZ9tfucdOfsbZxUaSu_uVN1hDco8VxPs4WZfkrIQME/edit?usp=sharing" target="_blank">Quero me voluntariar!</a>
+        <div class="column has-text-centered"><img class="seta" src="img/s-material.svg" alt="">
+          <h2 class="title is-size-4">SALVAR MATERIAL</h2>
+          <p>Foco no desenvolvimento econômico aproveitando as oportunidades de negócios locais, seja profissionalizando os já existentes ou buscando novas oportunidades para que as famílias tenham condições dignas de sobrevivência.</p>
         </div>
       </div>
     </div>
@@ -90,6 +95,22 @@ if ($navbarBurgers.length > 0) {
   });
 }
 
+});
+</script>
+
+<!--
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+-->
+
+<script>
+$('#slide').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
 });
 </script>
 </body>
