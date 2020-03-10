@@ -1587,49 +1587,12 @@ a.box:active {
         -webkit-box-shadow: none;
         box-shadow: none;
         color: whitesmoke; }
-        
-  .button.is-primary-red {
-    background-color: #e32e39;
-    border-color: transparent;
-    color: #fff; }
-    .button.is-primary-red:hover, .button.is-primary-red.is-hovered {
-      background-color: #ff1424;
-      border-color: transparent;
-      color: #fff; }
-    .button.is-primary-red:focus, .button.is-primary-red.is-focused {
-      border-color: transparent;
-      color: #fff; }        
-        
-  .button.is-primary-yellow {
-    background-color: #ffc349;
-    border-color: transparent;
-    color: #fff; }
-    .button.is-primary-yellow:hover, .button.is-primary-yellow.is-hovered {
-      background-color: #ffcc33;
-      border-color: transparent;
-      color: #fff; }
-    .button.is-primary-yellow:focus, .button.is-primary-yellow.is-focused {
-      border-color: transparent;
-      color: #fff; }       
-        
-  .button.is-primary-blue {
-    background-color: #2c7a9f;
-    border-color: transparent;
-    color: #fff; }
-    .button.is-primary-blue:hover, .button.is-primary-blue.is-hovered {
-      background-color: #379ac8;
-      border-color: transparent;
-      color: #fff; }
-    .button.is-primary-blue:focus, .button.is-primary-blue.is-focused {
-      border-color: transparent;
-      color: #fff; }           
-
   .button.is-primary {
-    background-color: #2e79a0;
+    background-color: #FFCB62;
     border-color: transparent;
     color: #fff; }
     .button.is-primary:hover, .button.is-primary.is-hovered {
-      background-color: #66b7d5;
+      background-color: #ffc755;
       border-color: transparent;
       color: #fff; }
     .button.is-primary:focus, .button.is-primary.is-focused {
@@ -8154,9 +8117,9 @@ label.panel-block {
   position: absolute;
   top: 0;
   left: 50%;
-  margin-left: -120px;
+  margin-left: -80px;
   height: auto;
-  width: 15%;
+  width: 160px;
   text-align: center; }
 
 .is-font-fancy {
