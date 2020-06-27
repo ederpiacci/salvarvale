@@ -1,8 +1,9 @@
 # Exclude folders
 salvar/
+YOURLS_CACHE/
 
 # Exclude files
 .ftpquota
 .htaccess
-
+.gitignore
 
